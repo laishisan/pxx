@@ -49,13 +49,13 @@ class Entire():
         print(code)
         if code == 401:
             testFile.getToken.Token().write_token()
-            for _ in range(3000):
+            for _ in range(1000):
                 Entire().insert_Entire()
-                time.sleep(3)
+                time.sleep(1)
         else:
-            for _ in range(3000):
+            for _ in range(1000):
                 Entire().insert_Entire()
-                time.sleep(3)
+                time.sleep(1)
 
 
 if __name__ == '__main__':
